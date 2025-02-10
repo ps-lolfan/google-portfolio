@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-const HeroSection = () => {
+function HeroSection() {
   return (
-    <div className="hero">
-      <h1>🚀 Google Dream Portfolio</h1>
-      <p>Tracking the journey to Google – Do or Die!</p>
-    </div>
+    <header>
+      <h1>Google Dream 🚀</h1>
+      <p>Let's make it happen!</p>
+    </header>
   );
-};
+}
 
 export default HeroSection;
